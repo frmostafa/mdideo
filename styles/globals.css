@@ -14,3 +14,217 @@ a {
 * {
   box-sizing: border-box;
 }
+.crossIconInSearch{
+  position: absolute !important;
+  bottom:3px;
+  left:10px;
+  width:24px;
+  height:24px;
+  color: rgb(4, 94, 155);
+}
+.searchIcon{
+  position: absolute !important;
+  bottom:3px;
+  right:12px;
+  width:24px;
+  height:24px;
+  color: rgb(4, 94, 155);
+}
+.MainSearchBoxRow{
+  position:relative;
+  direction: rtl;
+  margin :0 ;
+  padding: 0;
+}
+
+.searchinput {
+  height:35px;
+  margin:0;
+  padding-right: 40px;
+  width: 100%;
+  border-radius: 20px;
+  border-style: none;
+}
+.searchinputnav {
+  height:35px;
+  margin:0;
+  padding-right: 40px;
+  width: 650px;
+  border-radius: 20px;
+  border-style: none;
+}
+
+.searchinput:focus{
+  outline: none !important;
+  border:1px solid rgb(119, 131, 138);
+  box-shadow: 0 0 10px #719ECE;
+}
+.searchinputnav:focus{
+  outline: none !important;
+  border:1px solid rgb(119, 131, 138);
+  box-shadow: 0 0 10px #719ECE;
+}
+
+.icnonmargin{
+  margin-left: 20px;
+}
+.topNavColor{
+  background-color: #f3f3f3 ;
+  
+ 
+
+}
+.navcollapse{
+  flex-basis: 0 !important;
+}
+
+.searchdiv {
+  position: relative;
+  background-color: #f3f3f3 ;
+  height: 200px;
+  margin : 55px 0 0 0;
+  padding :0;
+  z-index: 2;
+  text-align: center;
+  -webkit-box-shadow: 0 8px 6px -6px rgb(177, 176, 176);
+	   -moz-box-shadow: 0 8px 6px -6px rgb(177, 176, 176);
+	        box-shadow: 0 8px 6px -6px rgb(177, 176, 176);
+}
+
+.rtl{
+  direction: rtl;
+  
+ 
+
+}
+/* overflow-x:hidden; */
+
+.stylehrred{
+  border: 1px solid red;
+  padding :0
+}
+
+.thumbtitle{
+margin: 0;
+}
+.thumbtime{
+  margin: 0;
+
+}
+.pointer {
+  cursor: pointer;
+}
+
+
+
+
+.sideBarItemsTitle{
+  color: #525252 !important;
+  display: inline-block;
+  margin : 0 15px 0 0 ;
+}
+.sideBarItemsTitle-min{
+  Display: none;
+
+}
+
+
+.sidebarIcon{
+  color: #6da2d4;
+  display:'inline' !important;
+
+}
+
+
+
+.sideBarItemsli{
+  padding : 10px 20px 10px 0;
+  
+}
+.sideBarItemsli:hover {
+  background-color: #e2e0e0;
+}
+
+
+
+.sidebar-max{
+  height:100%;
+  width:230px;
+  background-color: #f3f3f3 ;
+  position:fixed!important;
+  z-index:1;
+  overflow:auto;
+  -webkit-transition: width 0.5s ease-in-out;
+  -moz-transition: width 0.5s ease-in-out;
+  -o-transition: width 0.5s ease-in-out;
+  transition: width 0.5s ease-in-out;
+    left : 0
+}
+
+.sidebar-max li:hover {
+  /* background-color: #dfdfdf ; */
+  cursor: pointer;
+}
+
+.sidebar-min{
+  height:100%;
+  width:60px;
+  background-color: #f3f3f3 ;
+  position:fixed!important;
+  z-index:1;
+  overflow:auto;
+  left : 0;
+  -webkit-transition: width 0.5s ease-in-out;
+  -moz-transition: width 0.5s ease-in-out;
+  -o-transition: width 0.5s ease-in-out;
+  transition: width 0.5s ease-in-out;
+}
+
+.MainVideoContent-min{
+  margin-left : 220px;
+  /* opacity: 0.5; */
+  -webkit-transition: margin 0.5s ease-in-out;
+  -moz-transition: margin 0.5s ease-in-out;
+  -o-transition: margin 0.5s ease-in-out;
+  transition: margin 0.5s ease-in-out;
+}
+.MainVideoContent-max{
+  margin-left : 50px !important;
+  -webkit-transition: margin 0.5s ease-in-out;
+  -moz-transition: margin 0.5s ease-in-out;
+  -o-transition: margin 0.5s ease-in-out;
+  transition: margin 0.5s ease-in-out;
+}
+
+.suggestImageOnPlayer{
+  width: 200px;
+  padding: 0;
+}
+
+.ultst { 
+  margin-top : 200px;
+}
+.ultst2 { 
+  margin-top : 0px;
+}
+
+.underVideoDiv{
+  background-color: #f3f3f3;
+  width: 100%;
+  height: auto;
+  
+}
+
+.grayicon{
+  color:#888888
+}
+
+.videoDetailDiv{
+  background-color: #f3f3f3;
+  width: 100%;
+  height: 500px;
+}
+
+.navBarText{
+  font-size: 15px !important;
+}
